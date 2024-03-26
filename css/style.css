@@ -4,6 +4,65 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #1A222B;
+}
+header{
+    height: 40px;
+}
+/* CLASSI LAYOUT */
 
+.view-port{
+    height: calc(100vh - 80px);
+    background-color: black;
+    padding: 40px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #222222;
+}
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: calc(100% / 7);
+    position: relative;
+    padding: 5px;
+}
 
+.col-25{
+    width: 25%;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.col-50{
+    width: 50%;
+    height: 40px;
+    border: 1px solid black;
+}
+/* CLASSI UTILITY */
+.wave{
+    width: 100%;
+}
+
+.microphone-slash{
+    width: 13px;
+    filter: invert(100);
+    color: white;
+}
+
+.text-white{
+    font-size: 10px;
+    color: white;
+}
+
+.card-content{
+    position: absolute;
+    bottom: 8px;
+    left: 3px;
+    background-color : rgba(67, 68, 67, 0.8)
+}
